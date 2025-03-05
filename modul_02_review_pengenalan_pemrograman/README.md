@@ -191,7 +191,7 @@ Program ini menerima 5 input angka integer dan tiga karakter. Lalu program mengu
 
 
 <br>
-## Soal 2B
+### Soal 2B
 
 1. Siswa kelas IPA di salah satu sekolah menengah atas di Indonesia sedang mengadakan 
 praktikum kimia. Di setiap percobaan akan menggunakan 4 tabung reaksi, yang mana 
