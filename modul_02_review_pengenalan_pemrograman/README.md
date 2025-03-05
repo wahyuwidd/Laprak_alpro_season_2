@@ -231,11 +231,7 @@ func main() {
 > Output <br>
 > ![Screenshot bagian x](output/2b-soal1.png)
 
-Program melakukan pertukaran 3 nilai variabel string yg dimasukkan oleh pengguna. Proses program dalam melakukan pertukaran nilai 3 variable adalah sebagai berikut:
- 1. variable temp menyimpan nilai satu
- 2. variable satu diisi dengan nilai dari dua
- 3. variable dua diisi dengan nilai dari tiga
- 4. variable tiga diisi dengan nilai dari temp (nilai asli dari satu)
+Program ini mengecek apakah pengguna dapat memasukkan empat warna dalam urutan yang benar dan sama sebanyak lima kali berturut-turut. Jika semua input sesuai (merah kuning hijau ungu dalam lima percobaan), maka program menampilkan "BERHASIL: True", jika ada kesalahan, program menampilkan "BERHASIL: False".
 <br>
 
 2. Suatu pita (string) berisi kumpulan nama-nama bunga yang dipisahkan oleh spasi dan ‘–‘, contoh pita diilustrasikan seperti berikut ini.
@@ -273,7 +269,7 @@ func main() {
 > Output <br>
 > ![Screenshot bagian x](output/2b-soal2.png)
 
-Program melakukan pengecekan apakah tahun itu merupakan tahun kabisat dengan cara apakah tahun yang diinput habis dibagi 400 atau habis di bagi 4 tetapi tidak habis dibagi 100 dengan menggunakan mod(modulus). Jika semua kondisi terpenuhi maka tahun itu termasuk kabisat sedangkan kalo tidak terpenuhi (ada sisa bagi) maka tahun itu bukan termasuk tahun kabisat.
+Program ini mengumpulkan daftar bunga yang dimasukkan oleh pengguna dan kemudian menghitung jumlahnya hingga pengguna menginputkan "SELESAI"
 
 <br>
 3. Setiap hari Pak Andi membawa banyak barang belanjaan dari pasar dengan mengendarai sepeda motor. Barang belanjaan tersebut dibawa dalam kantong terpal di kiri-kanan motor. Sepeda motor tidak akan oleng jika selisih berat barang di kedua kantong sisi tidak lebih dari 9 kg. Buatlah program Pak Andi yang menerima input dua buah bilangan real positif yang menyatakan berat total masing-masing isi kantong terpal. Program akan terus meminta input bilangan tersebut hingga salah satu kantong terpal berisi 9 kg atau lebih
@@ -306,7 +302,8 @@ func main() {
 > Output <br>
 > ![Screenshot bagian x](output/2b-soal3.png)
 
-Program melakukan perhitungan volume dan luas bola dengan menggunakan rumus yang sudah ada disoal dan menggunakan package tambahan yaitu math untuk mempermudah menghitung pangkat 2 dan pangkat 3. 
+Program meminta pengguna memasukkan berat kantong kiri dan kanan. Program menggunakan while loop untuk loop berhenti berdasarkan kondisi. Loop akan berjalan selama total_berat masih di bawah 150 kg, dan kemudian Meminta input berat kantong kiri dan kanan setiap iterasi dari pengguna. Selanjutnya Menghitung selisih antara berat kiri dan kanan. Jika selisih < 0, maka selisih diubah menjadi positif (pakai -selisih). dan Jika selisih ≥ 9 kg, variabel oleng menjadi true (oleng). Lalu m enjumlahkan berat kantong kiri dan kanan.
+
 
 <br>
 4. Diberikan sebuah persamaan sebagai berikut ini.
@@ -344,4 +341,5 @@ func main() {
 > Output <br>
 > ![Screenshot bagian x](output/2b-soal4.png)
 
-Program diatas digunakan untuk konversi suhu. Program menerima input Temperatur Celcius dan kemudian program melakukan Konversi dari Celcius ke derajar Reamur, derajat Fahrenheit, dan derajat Kelvin. 
+Program diatas digunakan untuk menghitung perkiraan nilai akar 2 (√2) menggunakan suatu pendekatan matematis berbasis perkalian pecahan. Meminta pengguna memasukkan nilai k (banyaknya iterasi dalam perhitungan). Lalu program melakukan 
+Loop dari i = 0 sampai i = k untuk melakukan perhitungan. Kemudian program menghitung pembilang dengan rumus (4i+2)^2 dan juga menghitung penyebut dengan rumus (4i+1)×(4i+3). Setelah itu Program akan mengalikan hasil sebelumnya dengan pecahan baru: hasil=hasil× penyebut / pembilang. Terakhir menampilkan hasil akhir dengan 10 angka di belakang desimal.
