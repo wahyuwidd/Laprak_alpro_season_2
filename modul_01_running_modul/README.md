@@ -5,7 +5,6 @@
 
 Menampilkan print Hello World
 
-
 ```go
 package main
 
@@ -14,7 +13,7 @@ func main() {
 }
 ```
 
-> Output
+> Output <br>
 > ![Screenshot bagian x](output/hello_world.png)
 
 Program ini menampilkan hello world
