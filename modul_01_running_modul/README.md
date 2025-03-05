@@ -1,9 +1,9 @@
 # <h1 align="center">Laporan Praktikum Modul 01 <br> Running Modul</h1>
-<p align="center">Wahyu Widodo - 103112430011</p>
+<p align="end">Wahyu Widodo - 103112430011 <br>12-IF-05</p>
 
 ## Dasar Teori
 
-Menjalankan program print Hello World
+Menampilkan print Hello World
 
 
 ```go
@@ -15,8 +15,7 @@ func main() {
 ```
 
 > Output
-> ![Screenshot bagian x](output/screenshot_soal1.png)
-> %% Untuk mencantumkan screenshot, tidak boleh ada spasi di urlnya `()`, penamaan file bebas asal gak sara dan mudah dipahami aja,, dan jangan lupa hapus komen ini yah%%
+> ![Screenshot bagian x](output/hello_world.png)
 
-Penjelasan ttg kode kalian disini
+Program ini menampilkan hello world
 
