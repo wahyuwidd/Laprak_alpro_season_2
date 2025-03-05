@@ -61,7 +61,7 @@ func main() {
 }
 ```
 
-> Output
+> Output <br>
 > ![Screenshot bagian x](output/2a-soal1.png)
 
 Penjelasan kode
