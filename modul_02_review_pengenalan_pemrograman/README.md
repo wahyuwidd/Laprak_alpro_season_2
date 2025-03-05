@@ -63,7 +63,6 @@ func main() {
 > Output <br>
 > ![Screenshot bagian x](output/2a-soal1.png)
 
-Penjelasan kode
 Program melakukan pertukaran 3 nilai variabel string yg dimasukkan oleh pengguna. Proses program dalam melakukan pertukaran nilai 3 variable adalah sebagai berikut:
  1. variable temp menyimpan nilai satu
  2. variable satu diisi dengan nilai dari dua
@@ -98,7 +97,6 @@ func main() {
 > Output <br>
 > ![Screenshot bagian x](output/2a-soal2.png)
 
-Penjelasan kode
 Program melakukan pengecekan apakah tahun itu merupakan tahun kabisat dengan cara apakah tahun yang diinput habis dibagi 400 atau habis di bagi 4 tetapi tidak habis dibagi 100 dengan menggunakan mod(modulus). Jika semua kondisi terpenuhi maka tahun itu termasuk kabisat sedangkan kalo tidak terpenuhi (ada sisa bagi) maka tahun itu bukan termasuk tahun kabisat.
 <br>
 3. Buat program Bola yang menerima input jari-jari suatu bola (bilangan bulat). Tampilkan
@@ -130,8 +128,8 @@ func main() {
 > Output <br>
 > ![Screenshot bagian x](output/2a-soal3.png)
 
-Penjelasan kode
 Program melakukan perhitungan volume dan luas bola dengan menggunakan rumus yang sudah ada disoal dan menggunakan package tambahan yaitu math untuk mempermudah menghitung pangkat 2 dan pangkat 3. 
+
 <br>
 4. Dibaca nilai temperatur dalam derajat Celsius. Nyatakan temperatur tersebut dalam 
 Fahrenheit
@@ -163,7 +161,6 @@ func main() {
 > Output <br>
 > ![Screenshot bagian x](output/2a-soal4.png)
 
-Penjelasan kode
 Program diatas digunakan untuk konversi suhu. Program menerima input Temperatur Celcius dan kemudian program melakukan Konversi dari Celcius ke derajar Reamur, derajat Fahrenheit, dan derajat Kelvin. 
 
 <br>
@@ -189,5 +186,4 @@ func main() {
 > Output <br>
 > ![Screenshot bagian x](output/2a-soal5.png)
 
-Penjelasan kode
 Program ini menerima 5 input angka integer dan tiga karakter. Lalu program mengubah angka integer menjadi karakter ASCII dan langsung menampilkan ke layar. Program juga melakukan increment(+1) pada variable byte x,y,x untuk menggeser huruf nya.
