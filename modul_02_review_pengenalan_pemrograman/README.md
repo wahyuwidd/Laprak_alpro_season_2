@@ -102,8 +102,8 @@ func main() {
 Penjelasan kode
 Program melakukan pengecekan apakah tahun itu merupakan tahun kabisat dengan cara apakah tahun yang diinput habis dibagi 400 atau habis di bagi 4 tetapi tidak habis dibagi 100 dengan menggunakan mod(modulus). Jika semua kondisi terpenuhi maka tahun itu termasuk kabisat sedangkan kalo tidak terpenuhi (ada sisa bagi) maka tahun itu bukan termasuk tahun kabisat.
 
-
-3. Buat program Bola yang menerima input jari-jari suatu bola (bilangan bulat). Tampilkan
+<br>
+1. Buat program Bola yang menerima input jari-jari suatu bola (bilangan bulat). Tampilkan
 Volume dan Luas kulit bola. 𝑣𝑜𝑙𝑢𝑚𝑒𝑏𝑜𝑙𝑎 = 4/3 𝜋𝑟 3 dan 𝑙𝑢𝑎𝑠𝑏𝑜𝑙𝑎 = 4𝜋𝑟 2 
 (π ≈ 3.1415926535).
 
@@ -135,8 +135,8 @@ func main() {
 Penjelasan kode
 Program melakukan perhitungan volume dan luas bola dengan menggunakan rumus yang sudah ada disoal dan menggunakan package tambahan yaitu math untuk mempermudah menghitung pangkat 2 dan pangkat 3. 
 
-
-4. Dibaca nilai temperatur dalam derajat Celsius. Nyatakan temperatur tersebut dalam 
+<br>
+1. Dibaca nilai temperatur dalam derajat Celsius. Nyatakan temperatur tersebut dalam 
 Fahrenheit
 𝐶𝑒𝑙𝑠𝑖𝑢𝑠 = (𝐹𝑎ℎ𝑟𝑒𝑛ℎ𝑒𝑖𝑡 − 32) × 5/9
 𝑅𝑒𝑎𝑚𝑢𝑟 = 𝐶𝑒𝑙𝑐𝑖𝑢𝑠 × 4/5
@@ -169,8 +169,8 @@ func main() {
 Penjelasan kode
 Program diatas digunakan untuk konversi suhu. Program menerima input Temperatur Celcius dan kemudian program melakukan Konversi dari Celcius ke derajar Reamur, derajat Fahrenheit, dan derajat Kelvin. 
 
-
-5. Tipe karakter sebenarnya hanya apa yang tampak dalam tampilan. Di dalamnya 
+<br>
+1. Tipe karakter sebenarnya hanya apa yang tampak dalam tampilan. Di dalamnya 
 tersimpan dalam bentuk biner 8 bit (byte) atau 32 bit (rune) saja. Buat program ASCII yang akan membaca 5 buat data integer dan mencetaknya dalam format karakter. Kemudian membaca 3 buah data karakter dan mencetak 3 buah karakter setelah karakter tersebut (menurut tabel ASCII)
 
 ```go
