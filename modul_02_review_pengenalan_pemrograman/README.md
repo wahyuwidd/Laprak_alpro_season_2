@@ -70,7 +70,7 @@ Program melakukan pertukaran 3 nilai variabel string yg dimasukkan oleh pengguna
  2. variable satu diisi dengan nilai dari dua
  3. variable dua diisi dengan nilai dari tiga
  4. variable tiga diisi dengan nilai dari temp (nilai asli dari satu)
-
+<br>
 
 2. Tahun kabisat adalah tahun yang habis dibagi 400 atau habis dibagi 4 tetapi tidak habis
 dibagi 100. Buatlah sebuah program yang menerima input sebuah bilangan bulat dan
@@ -96,7 +96,7 @@ func main() {
 }
 ```
 
-> Output
+> Output <br>
 > ![Screenshot bagian x](output/2a-soal2.png)
 
 Penjelasan kode
@@ -129,7 +129,7 @@ func main() {
 }
 ```
 
-> Output
+> Output <br>
 > ![Screenshot bagian x](output/2a-soal3.png)
 
 Penjelasan kode
@@ -163,7 +163,7 @@ func main() {
 }
 ```
 
-> Output
+> Output <br>
 > ![Screenshot bagian x](output/2a-soal4.png)
 
 Penjelasan kode
@@ -189,7 +189,7 @@ func main() {
 }
 ```
 
-> Output
+> Output <br>
 > ![Screenshot bagian x](output/2a-soal5.png)
 
 Penjelasan kode
