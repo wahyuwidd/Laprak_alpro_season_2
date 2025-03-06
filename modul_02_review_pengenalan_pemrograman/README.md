@@ -438,8 +438,10 @@ func main() {
 Program diatas adalah digunakan untuk mengkonversi nilai. 
 a) hasil dari nam yang diberikan 80.1 adalah D, yang dimana belum sesuai spesifikasi soal.
 b) Kesalahan dari program nya adalah terdapat kesalahan dalam penggunaan if nya. Kondisi yang lebih besar seperti if nam > 80 harus ditempatkan sebelum kondisi yang lebih kecil seperti if nam > 72.5, karena jika tidak, kode yang salah akan dieksekusi. Seharusnya menggunakan else jika masih dalam 1 percabangan.
+
+
 <br>
-3. Sebuah bilangan bulat b memiliki faktor bilangan f > 0 jika f habis membagi b. Contoh: 2 merupakan faktor dari bilangan 6 karena 6 habis dibagi 2. Buatlah program yang menerima input sebuah bilangan bulat b dan b > 1. Program harus dapat mencari dan menampilkan semua faktor dari bilangan tersebut! Bilangan bulat b > 0 merupakan bilangan prima p jika dan hanya jika memiliki persis dua faktor bilangan saja, yaitu 1 dan dirinya sendiri. Lanjutkan program sebelumnya. Setelah menerima masukan sebuah bilangan bulat b > 0. Program tersebut mencari dan menampilkan semua faktor bilangan tersebut. Kemudian, program menentukan apakah b merupakan bilangan prima.
+1. Sebuah bilangan bulat b memiliki faktor bilangan f > 0 jika f habis membagi b. Contoh: 2 merupakan faktor dari bilangan 6 karena 6 habis dibagi 2. Buatlah program yang menerima input sebuah bilangan bulat b dan b > 1. Program harus dapat mencari dan menampilkan semua faktor dari bilangan tersebut! Bilangan bulat b > 0 merupakan bilangan prima p jika dan hanya jika memiliki persis dua faktor bilangan saja, yaitu 1 dan dirinya sendiri. Lanjutkan program sebelumnya. Setelah menerima masukan sebuah bilangan bulat b > 0. Program tersebut mencari dan menampilkan semua faktor bilangan tersebut. Kemudian, program menentukan apakah b merupakan bilangan prima.
 
 ```go
 package main
