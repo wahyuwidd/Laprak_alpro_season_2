@@ -6,25 +6,6 @@
 Dasar teori pemrograman mencakup tiga konsep utama: Tipe Data, Percabangan, dan Struktur Kontrol Looping. **Tipe Data** menentukan jenis nilai yang dapat disimpan dalam variabel, seperti integer, float, string, dan boolean. **Percabangan** memungkinkan program mengambil keputusan berdasarkan kondisi tertentu, menggunakan struktur seperti if-else. **Struktur Kontrol Looping** digunakan untuk menjalankan blok kode secara berulang hingga kondisi tertentu terpenuhi, dengan perulangan seperti for, while, dan repeat-until, yang membantu melakukan tugas yang berulang dalam pemrograman.
 ## Unguided
 
-### Soal 1
-
-copy paste soal nomor 1 disini
-
-```go
-package main
-
-func main() {
-	fmt.Println("Kode kalian disini")
-	fmt.Println("JANGAN MASUKIN >>SCREENSHOT<< KODE KALIAN DISINI")
-	fmt.Println("KALAU ADA -20 POIN LAPRAK")
-}
-```
-
-> Output
-> ![Screenshot bagian x](output/screenshot_soal1.png)
-> %% Untuk mencantumkan screenshot, tidak boleh ada spasi di urlnya `()`, penamaan file bebas asal gak sara dan mudah dipahami aja,, dan jangan lupa hapus komen ini yah%%
-
-Penjelasan ttg kode kalian disini
 
 ### Soal 2A
 
