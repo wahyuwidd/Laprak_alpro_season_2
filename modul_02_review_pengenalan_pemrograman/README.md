@@ -343,3 +343,137 @@ func main() {
 
 Program diatas digunakan untuk menghitung perkiraan nilai akar 2 (√2) menggunakan suatu pendekatan matematis berbasis perkalian pecahan. Meminta pengguna memasukkan nilai k (banyaknya iterasi dalam perhitungan). Lalu program melakukan 
 Loop dari i = 0 sampai i = k untuk melakukan perhitungan. Kemudian program menghitung pembilang dengan rumus (4i+2)^2 dan juga menghitung penyebut dengan rumus (4i+1)×(4i+3). Setelah itu Program akan mengalikan hasil sebelumnya dengan pecahan baru: hasil=hasil× penyebut / pembilang. Terakhir menampilkan hasil akhir dengan 10 angka di belakang desimal.
+
+
+<br>
+
+<br>
+### Soal 2C
+
+1. PT POS membutuhkan aplikasi perhitungan biaya kirim berdasarkan berat parsel. Maka, 
+buatlah program BiayaPos untuk menghitung biaya pengiriman tersebut dengan 
+ketentuan sebagai berikut!
+Dari berat parsel (dalam gram), harus dihitung total berat dalam kg dan sisanya (dalam 
+gram). Biaya jasa pengiriman adalah Rp. 10.000,- per kg. Jika sisa berat tidak kurang dari 
+500 gram, maka tambahan biaya kirim hanya Rp. 5,- per gram saja. Tetapi jika kurang dari 
+500 gram, maka tambahan biaya akan dibebankan sebesar Rp. 15,- per gram. Sisa berat 
+(yang kurang dari 1kg) digratiskan biayanya apabila total berat ternyata lebih dari 10kg
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var berat, totalBeratKg, sisaBeratGram, biayaKg, biayaSisa, totalBiaya int
+
+	fmt.Print("Masukkan berat parsel (dalam gram): ")
+	fmt.Scan(&berat)
+
+	totalBeratKg = berat / 1000
+	sisaBeratGram = berat % 1000
+	biayaKg = totalBeratKg * 10000
+
+	if totalBeratKg > 10 && sisaBeratGram < 1000 {
+		biayaSisa = 0
+	} else {
+		if sisaBeratGram >= 500 {
+			biayaSisa = sisaBeratGram * 5
+		} else {
+			biayaSisa = sisaBeratGram * 15
+		}
+	}
+
+	totalBiaya = biayaKg + biayaSisa
+
+	fmt.Printf("Detail berat: %d kg + %d gr\n", totalBeratKg, sisaBeratGram)
+	fmt.Printf("Detail biaya: Rp. %d + Rp. %d\n", biayaKg, biayaSisa)
+	fmt.Printf("Total biaya: Rp. %d\n", totalBiaya)
+}
+```
+
+> Output <br>
+> ![Screenshot bagian x](output/2c-soal1.png)
+
+Program ini menghitung detail berat, detail biaya dan total biaya. pengguna hanya menginputkan berat parsel dalam gram, kemudian program melakukan perhitungan pembagian, perkalian, dan hasil sisa bagi dan kemudian menampilkan ke layar.
+<br>
+
+2. Diberikan sebuah nilai akhir mata kuliah (NAM) [0..100] dan standar penilaian nilai mata kuliah (NMK) sebagai berikut:
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var nam float64
+	var nmk string
+
+	fmt.Print("Nilai akhir mata kuliah: ")
+	fmt.Scan(&nam)
+
+	if nam > 80 {
+		nmk = "A"
+	} else if nam > 72.5 {
+		nmk = "AB"
+	} else if nam > 65 {
+		nmk = "B"
+	} else if nam > 57.5 {
+		nmk = "BC"
+	} else if nam > 50 {
+		nmk = "C"
+	} else if nam > 40 {
+		nmk = "D"
+	} else {
+		nmk = "E"
+	}
+
+	fmt.Println("Nilai mata kuliah:", nmk)
+}
+```
+
+> Output <br>
+> ![Screenshot bagian x](output/2c-soal2.png)
+
+Program diatas adalah digunakan untuk mengkonversi nilai. 
+a) hasil dari nam yang diberikan 80.1 adalah D, yang dimana belum sesuai spesifikasi soal.
+b) Kesalahan dari program nya adalah terdapat kesalahan dalam penggunaan if nya. Kondisi yang lebih besar seperti if nam > 80 harus ditempatkan sebelum kondisi yang lebih kecil seperti if nam > 72.5, karena jika tidak, kode yang salah akan dieksekusi. Seharusnya menggunakan else jika masih dalam 1 percabangan.
+<br>
+3. Sebuah bilangan bulat b memiliki faktor bilangan f > 0 jika f habis membagi b. Contoh: 2 merupakan faktor dari bilangan 6 karena 6 habis dibagi 2. Buatlah program yang menerima input sebuah bilangan bulat b dan b > 1. Program harus dapat mencari dan menampilkan semua faktor dari bilangan tersebut! Bilangan bulat b > 0 merupakan bilangan prima p jika dan hanya jika memiliki persis dua faktor bilangan saja, yaitu 1 dan dirinya sendiri. Lanjutkan program sebelumnya. Setelah menerima masukan sebuah bilangan bulat b > 0. Program tersebut mencari dan menampilkan semua faktor bilangan tersebut. Kemudian, program menentukan apakah b merupakan bilangan prima.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var b int
+	var p bool
+
+	fmt.Print("Bilangan: ")
+	fmt.Scan(&b)
+	jumlah := 0
+	if b <= 1 {
+		fmt.Println("BAilangan harus lebih besar dari 1!")
+	} else {
+		fmt.Printf("Faktor dari %d adalah: ", b)
+		for i := 1; i <= b; i++ {
+			if b%i == 0 {
+				fmt.Printf("%d ", i)
+				jumlah++
+			}
+		}
+		fmt.Println()
+		if jumlah == 2 {
+			p = true
+		} else {
+			p = false
+		}
+		fmt.Print("Prima: ", p)
+	}
+}
+```
+> Output <br>
+>  ![Screenshot bagian x](output/2c-soal3.png)
+
+Program ini untuk mencari faktor dan menentukan apakah bilangan  b merupakan bilangan prima. pengguna diminta input bilangan kemudian program melakukan perulangan sampai denga n bilangan yang di inputkan pengguna.
