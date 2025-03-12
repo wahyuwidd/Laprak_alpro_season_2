@@ -108,7 +108,6 @@ func main() {
 > ![Screenshot bagian x](output/soal2.png)
 
 Program ini melakukan perhitungan fungsi matematika. Terdapat 3 fungsi untuk menghitung masing masing fungsi dengan variable f g dan h. lalu terdapat 3 fungsi lagi yaitu (𝑓𝑜𝑔𝑜ℎ)(𝑎),  (𝑔𝑜ℎ𝑜𝑓)(𝑏), dan (ℎ𝑜𝑓𝑜𝑔)(𝑐). kemudian fungsi f, g, dan h dipanggil didalam fungsi (𝑓𝑜𝑔𝑜ℎ)(𝑎),  (𝑔𝑜ℎ𝑜𝑓)(𝑏), dan (ℎ𝑜𝑓𝑜𝑔)(𝑐). lalu dipanggil dimain program. Seperti biasa di main program mendapatkan input pengguna untuk melakukan perhitungan fungsi matematika dengan fungsi fungsi yang sudah di bikin. Disini langsung di outputin jadi ngga perlu di assign ke variable tertentu.
-
 <br>
 ### Soal 3
 
