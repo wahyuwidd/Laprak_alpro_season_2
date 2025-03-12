@@ -3,9 +3,10 @@
 
 ## Dasar Teori
 
-Dasar teori pemrograman mencakup tiga konsep utama: Tipe Data, Percabangan, dan Struktur Kontrol Looping. **Tipe Data** menentukan jenis nilai yang dapat disimpan dalam variabel, seperti integer, float, string, dan boolean. **Percabangan** memungkinkan program mengambil keputusan berdasarkan kondisi tertentu, menggunakan struktur seperti if-else. **Struktur Kontrol Looping** digunakan untuk menjalankan blok kode secara berulang hingga kondisi tertentu terpenuhi, dengan perulangan seperti for, while, dan repeat-until, yang membantu melakukan tugas yang berulang dalam pemrograman.
-## Unguided
+Fungsi dalam pemrograman adalah sebuah blok kode yang dapat digunakan kembali untuk melakukan tugas tertentu. Fungsi membantu dalam mengorganisir kode, menghindari pengulangan kode, dan membuat program lebih modular. Fungsi juga merupakan satu kesatuan rangkaian instruksi yang memberikan atau menghasilkan suatu nilai dan biasanya memetakkan input ke suatu nilai yang lain. Oleh karena itu, fungsi selalu
+menghasilkan/mengembalikan nilai.
 
+## Unguided
 
 ### Soal 1
 
