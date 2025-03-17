@@ -54,7 +54,7 @@ func main() {
 ```
 
 > Output <br>
-> ![Screenshot bagian x](modul_03_fungsi/output/soal1.png)
+> ![Screenshot bagian x](output/soal1.png)
 
 Program ini melakukan perhitungan permutasi dan kombinasi. Terdapat 3 fungsi yang pertama ada fungsi faktorial digunakan untuk menghitung hasil faktor yang digunakan untuk mencari permutasi dan kombinasi. Didalam fungsi faktorial terdapat looping yang digunakan untuk menghitung faktorial menggunakan perulangan dari 2 sampai n dengan mengalikan nya satu persatu. Didalam fungsi permutasi terdapat rumus yaitu n!/n-r! untuk mengitung permutasi nya. Yang terakhir didalm fungsi kombinasi terdapat rumus n!/r!(n-r)! untuk hitung kombinasi nya. Lalu fungsi tidak akan berguna jika tidak di panggil di main program, untuk memanggil nya cukup ketikan nama fungsi beserta parameter yang dibutuh kan, untuk mendapatkan parameter yang dimana adalah input dari user maka ada fmt.Scan lalu panggil fungsi nya kemudian bisa langsung di outputin atau di assign ke variabel lalu baru dioutputin juga bisa.
 <br>
@@ -105,7 +105,7 @@ func main() {
 ```
 
 > Output <br>
-> ![Screenshot bagian x](modul_03_fungsi/output/soal2.png)
+> ![Screenshot bagian x](output/soal2.png)
 
 Program ini melakukan perhitungan fungsi matematika. Terdapat 3 fungsi untuk menghitung masing masing fungsi dengan variable f g dan h. lalu terdapat 3 fungsi lagi yaitu (𝑓𝑜𝑔𝑜ℎ)(𝑎),  (𝑔𝑜ℎ𝑜𝑓)(𝑏), dan (ℎ𝑜𝑓𝑜𝑔)(𝑐). kemudian fungsi f, g, dan h dipanggil didalam fungsi (𝑓𝑜𝑔𝑜ℎ)(𝑎),  (𝑔𝑜ℎ𝑜𝑓)(𝑏), dan (ℎ𝑜𝑓𝑜𝑔)(𝑐). lalu dipanggil dimain program. Seperti biasa di main program mendapatkan input pengguna untuk melakukan perhitungan fungsi matematika dengan fungsi fungsi yang sudah di bikin. Disini langsung di outputin jadi ngga perlu di assign ke variable tertentu.
 <br>
@@ -157,7 +157,7 @@ func main() {
 ```
 
 > Output <br>
-> ![Screenshot bagian x](modul_03_fungsi/output/soal3.png)
+> ![Screenshot bagian x](output/soal3.png)
 
 Program ini menentukan apakah sebuah titik berada di dalam satu atau dua lingkaran menggunakan konsep jarak Euclidean untuk mengecek apakah titik berada di dalam suatu lingkaran. Nah disini terdapat 2 fungsi yaitu fungsi jarak dan didalam. Fungsi jarak digunakan untuk menghitung **jarak Euclidean** antara dua titik (a,b)(a, b)(a,b) dan (c,d)(c, d)(c,d). Lalu menggunakan package math untuk mengambil akar dari jumlah kuadrat kedua selisih tersebut. Fungsi kedua yaitu fungsi didalam digunakan untuk mengecek apakah titik **(x, y)** berada di dalam lingkaran dengan pusat **(cx, cy)** dan jari-jari **r**. Jika jarak titik ke pusat lingkaran lebih kecil atau sama dengan r, maka titik berada di dalam lingkaran (true).
 Jika jarak lebih besar dari r, titik berada di luar lingkaran (false). Lalu masuk ke main program meminta pengguna memasukkan:
