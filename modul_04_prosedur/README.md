@@ -55,7 +55,7 @@ func main() {
 ```
 
 > Output <br>
-> ![Screenshot bagian x](modul_04_prosedur/output/soal1.png)
+> ![Screenshot bagian x](output/soal1.png)
 
 Program ini melakukan perhitungan permutasi dan kombinasi. Terdapat 3 prosedur yang pertama ada prosedur faktorial digunakan untuk menghitung hasil faktor yang digunakan untuk mencari permutasi dan kombinasi. Didalam prosedur faktorial terdapat looping yang digunakan untuk menghitung faktorial menggunakan perulangan dari 2 sampai n dengan mengalikan nya satu persatu. Didalam prosedur permutasi terdapat rumus yaitu n!/n-r! untuk mengitung permutasi nya. Yang terakhir didalm prosedur kombinasi terdapat rumus n!/r!(n-r)! untuk hitung kombinasi nya. Lalu prosedur tidak akan berguna jika tidak di panggil di main program, untuk memanggil nya cukup ketikan nama prosedurnya beserta parameter yang dibutuh kan, untuk mendapatkan parameter yang dimana adalah input dari user maka ada fmt.Scan 
 <br>
@@ -111,7 +111,7 @@ func main() {
 ```
 
 > Output <br>
-> ![Screenshot bagian x](modul_04_prosedur/output/soal2.png)
+> ![Screenshot bagian x](output/soal2.png)
 
 Program ini menentukan pemenang yang telah menyelesaikan lebih banyak soal atau menyelesaikan soal dengan total waktu yang paling kecil. Terdapat prosedur hitungSkor yang berisi perulangan untuk menghitung total soal dan total skor. lalu masuk ke main program terdapat while loop yang dimana jika input pengguna = Selesai maka perulangan dihentikan. Lalu di dalam looping panggil prosedur hitungSkor, kemudian ada perbandingan untuk mentukan siapa pemenang sejati sesungguh nya.
 <br>
@@ -154,6 +154,6 @@ func main() {
 ```
 
 > Output <br>
-> ![Screenshot bagian x](modul_04_prosedur/output/soal3.png)
+> ![Screenshot bagian x](output/soal3.png)
 
 Program ini menampilkan deret bilangan. Terdapat 1 prosedur yaitu cetakDeret yang dimana didalam prosedur terdapat while loop untuk mencari deret bilangan. Lalu prosedur cetakDeret di panggil di main program yang dimana didalam prosedur cetakDeret tidak terdapat nilai/mengembalikan nilai karena deret langsung di tampilkan/diprint jadi didalam main program cukup panggil saja prosedur nya. Lalu di main program juga ditambahkan kondisi dimana n harus lebih dari 0 dan kurang dari 1000000.
