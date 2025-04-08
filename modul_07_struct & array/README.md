@@ -3,8 +3,9 @@
 
 ## Dasar Teori
 
-Struct adalah
-Array adalah
+Struct adalah tipe data bentukan yang digunakan untuk mengelompokkan beberapa data (dengan tipe berbeda-beda) dalam satu wadah.
+Array adalah kumpulan data (dengan tipe yang sama) yang disimpan dalam satu variabel dan memiliki indeks (dimulai dari 0).
+
 
 ## Unguided
 
