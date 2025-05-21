@@ -183,7 +183,6 @@ NOTE: Balak adalah  istilah dalam permainan domino untuk kartu yang memiliki ke
 - [2|2] (balak dua)
 <br>
 ### Soal 2
-
 Realisasi aksi berikut menggunakan operasi-operasi dasar mesin domino:
 a) prosedur galiKartu(Dominoes,Domino) yang mengambil kartu dari tumpukan sampai
 diperoleh kartu dengan gambar (suit) yang sama dengan kartu yang diberikan
