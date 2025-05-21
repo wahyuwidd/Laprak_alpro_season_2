@@ -182,6 +182,7 @@ NOTE: Balak adalah  istilah dalam permainan domino untuk kartu yang memiliki ke
 - [1|1] (balak satu)
 - [2|2] (balak dua)
 <br>
+
 ### Soal 2
 Realisasi aksi berikut menggunakan operasi-operasi dasar mesin domino:
 a) prosedur galiKartu(Dominoes,Domino) yang mengambil kartu dari tumpukan sampai
@@ -435,6 +436,7 @@ NOTE: Balak adalah  istilah dalam permainan domino untuk kartu yang memiliki ke
 - [1|1] (balak satu)
 - [2|2] (balak dua)
 <br>
+
 ### Soal 4
 Implementasi mesin abstrak karakter yang bekerja terhadap untaian karakter (yang diakhiri 
 dengan penanda titik (".") dan mempunyai sejumlah operasi dasar.
